@@ -1846,3 +1846,8 @@ h1 span, h2 span { color: #a07c32; font-style: italic; font-weight: 500; }
   .video-ram .zvuk svg { width: 18px; height: 18px; }
   .pocetna-strana .mreze-pocetna { margin-top: 26px; }
 }
+
+/* šest usluga: 3 + 3 na računaru */
+.lukovi { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.luk-prozor { height: 150px; }
+@media (max-width: 860px) { .lukovi { grid-template-columns: none; } }
